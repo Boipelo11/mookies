@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="x-ua-compatible" content="IE=edge">
+	<meta name="author" content="SemiColonWeb">
+	<meta name="description" content="Get Canvas to build powerful websites easily with the Highly Customizable &amp; Best Selling Bootstrap Template, today.">
+
+	<!-- Font Imports -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&family=Dancing+Script&display=swap" rel="stylesheet">
+
+	<!-- Core Style -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Font Icons -->
+	<link rel="stylesheet" href="css/font-icons.css">
+	<script src="https://kit.fontawesome.com/96eb2a99a0.js" crossorigin="anonymous"></script>
+
+	<!-- Niche Demos -->
+	<link rel="stylesheet" href="demos/burger/burger.css"> <!-- Burger Theme Custom CSS -->
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/custom.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- Burger Document Title
+	============================================= -->
+	<title>Mookies Munchiies</title>
+
+</head>
+
+<body class="stretched">
+
+	<div class="body-overlay"></div>
+
+	<!-- <div id="side-panel" class="dark" style="background: #101010 url('demos/burger/images/icon-bg-white.png') repeat center center;">
+
+		<div id="side-panel-trigger-close" class="side-panel-trigger"><a href="#"><i class="bi-x-lg"></i></a></div>
+
+		<div class="side-panel-wrap">
+
+			<div class="widget">
+
+				<h4 class="fw-bold">Download App</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<a href="#"><img src="demos/articles/images/appstore.png" alt="App Link" height="60"></a>
+				<a href="#"><img src="demos/articles/images/googleplay.png" alt="App Link" class="mt-2" height="60"></a>
+
+			</div>
+
+			<div id="q-contact" class="widget quick-contact-widget form-widget">
+
+				<h4>Quick Contact</h4>
+				<div class="form-result"></div>
+				<form id="quick-contact-form" name="quick-contact-form" action="include/form.php" method="post" class="quick-contact-form nomb-5">
+					<div class="form-process"></div>
+
+					<input type="text" class="required not-dark mb-2 form-control mb-2" id="quick-contact-form-name" name="quick-contact-form-name" value="" placeholder="Full Name">
+					<input type="text" class="required not-dark mb-2 form-control email mb-2" id="quick-contact-form-email" name="quick-contact-form-email" value="" placeholder="Email Address">
+					<textarea class="required not-dark mb-2 form-control mb-2 short-textarea" id="quick-contact-form-message" name="quick-contact-form-message" rows="4" cols="30" placeholder="Message"></textarea>
+					<input type="text" class="d-none" id="quick-contact-form-botcheck" name="quick-contact-form-botcheck" value="">
+					<input type="hidden" name="prefix" value="quick-contact-form-">
+					<button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit" class="button button-small button-3d m-0" value="submit">Send Email</button>
+				</form>
+
+			</div>
+
+		</div>
+
+	</div> -->
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="transparent-header dark" data-sticky-class="dark-color" data-sticky-shrink-offset="0">
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row">
+
+						<!-- Logo
+						============================================= -->
+						<div id="logo">
+							<a href="demo-burger.html">
+								<img class="logo-default" src="./FB_IMG_16819292665996575.jpg" alt="Mookies Munchies Logo" >
+								<!-- <img class="logo-dark" srcset="demos/burger/images/logo-dark.png, demos/burger/images/logo-dark@2x.png 2x" src="demos/burger/images/logo-dark@2x.png" alt="Canvas Logo"> -->
+							</a>
+						</div><!-- #logo end -->
+
+						<div class="header-misc">
+
+							<div id="side-panel-trigger" class="side-panel-trigger"><a href="#"><i class="bi-three-dots-vertical"></i></a></div>
+
+						</div>
+
+						<div class="primary-menu-trigger">
+							<button class="cnvs-hamburger" type="button" title="Open Mobile Menu">
+								<span class="cnvs-hamburger-box"><span class="cnvs-hamburger-inner"></span></span>
+							</button>
+						</div>
+
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu">
+
+							<ul class="one-page-menu menu-container" data-easing="easeInOutExpo" data-speed="1250" data-offset="60">
+								<li class="current menu-item"><a class="menu-link" href="#" data-href="#slider"><div>Home</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#" data-href="#story"><div>Our Story</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#" data-href="#menu"><div>Menu</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#" data-href="#contact" data-offset="20"><div>Contact</div></a></li>
+								<li class="noborder menu-item"><a class="menu-link" href="tel:+112223333"><div>+27 63 288 6708</div></a></li>
+							</ul>
+
+						</nav><!-- #primary-menu end -->
+
+					</div>
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+		</header><!-- #header end -->
+
+		<!-- Modal -->
+		<div class="popup-container">
+			<span class="popup-close">&times;</span>
+			<img class="popup-image" src="./mookie award.jpg" alt="Pop-up Image">
+		</div>
+
+		<!-- Slider
+		============================================= -->
+		<section id="slider" class="slider-element min-vh-100 page-section slide-img include-header" data-animate="img-to-right" style="background: url('./hero.jpg') center center no-repeat; background-size: cover;">
+			<div class="slider-inner">
+
+				<div class="vertical-middle">
+					<div class="container dark">
+						<div class="row">
+							<div class="col-lg-6 col-md-8 dotted-bg parallax" data-start="top: 0px; opacity: 1" data-400="top: 50px; opacity: 0.3">
+								<div class="emphasis-title" data-animate="fadeInUp">
+									<div class="before-heading font-secondary color">Order Your Favorite</div>
+									<h1 class="font-border"> Munchiies!!</h1>
+								</div>
+								<p class="lead text-white-50" data-animate="fadeInUp" data-delay="100">We deliver in Kagiso and surrounding areas. Give us a call and feed your cravings.</p>
+								<a data-scrollto="#menu" data-easing="easeInOutExpo" data-speed="1250" class="button button-large button-rounded px-4 button-border button-light button-white fw-semibold" data-animate="fadeInUp" data-delay="200">See Menu</a>
+								<a href="tel:+112223333" class="button button-large button-rounded px-4 button-reveal d-inline-flex tright fw-semibold" data-animate="fadeInUp" data-delay="300"><i class="bi-arrow-right"></i><span>Contact Us</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- Content
+		============================================= -->
+		<section id="content" class="dark-color">
+			<div style="position: absolute; top: -13px; left: 0; width: 100%;height: 30px; background: url('demos/burger/images/svg/brush.svg') no-repeat top center / 110% auto; z-index: 2;"></div>
+			<div class="content-wrap p-0">
+
+				<div id="story" class="page-section">
+
+					<div class="section my-0" style="background: #F0ECE7 url('demos/burger/images/icon-bg.png') repeat center center;">
+						<div class="container">
+							<div class="text-center mb-5 mx-auto" style="max-width: 700px">
+								<div class="before-heading font-primary color" id="story">Our Story</div>
+								<h1 class="font-secondary display-4 fw-bold">Top Tier! Kasi Burgers...</h1>
+								<p class="lead">The journey began in 2018 right in the heart of Kagiso Township. It was sparked by the founders love for burgers and hopes to pursue a career in hospitality.</p>
+								<p class="lead">Mookie started the business from scratch in his home, those were truly humble beginnings but this did not stop him. He gradually improved over the years; now with a fully functioning kitchen and seating area for customers which was proudly sponsored by Coca-Cola.</p>
+                                <p class="lead">Their target market is all demographics from residential areas, schools and the industrial Chamdor area located in Kagiso. Mookie's Munchiies has grown impressively that they've sponsored events hosted by NPO's and collaborated with upcoming local brands such as 'Waya-Waya'</p>
+								<a href="https://www.freepik.com" class="d-block op-05">Founded by Mookie</a>
+
+								<div class="card mx-auto my-5 slide-img border-0" style="max-width: 450px" data-animate="img-to-left">
+									<img src="./FB_IMG_16820546079187747.jpg" class="card-img" alt="Mookie">
+<!-- <div class="card-img-overlay dotted-bg dotted-bg-light d-flex align-items-center justify-content-center">
+										<a href="https://www.youtube.com/watch?v=P3Huse9K6Xs" data-lightbox="iframe" class="stretched-link display-3 text-white image_fade"><i class="fa-solid fa-circle-play"></i></a>
+									</div>									 -->
+								</div>
+
+								<img src="demos/burger/images/svg/items.svg" alt="All Items">
+							</div>
+						</div>
+					</div>
+
+					<div class="section m-0 p-0">
+						<div class="row align-items-stretch">
+
+
+							<div class="item-categories overflow-hidden col-md-4 dark col-padding position-relative" style="background-color: #0A0A0A;">
+                              <div class="cat-img"><img  data-animate="fadeInRight" src="./" alt="Category Image" ></div> 
+								<div class="cat-text">
+
+									<h2 class="fw-bold ls-1 text-uppercase mb-5">Quality Food</h2>
+									
+									<p> "The burgers are ever fresh, juicy and tastey. The flavour will blow you away!" <br> - Sanele</p>
+                                    
+										<i class="fa-solid fa-star fa-2xs"></i>
+										<i class="fa-solid fa-star fa-2xs"></i>
+										<i class="fa-solid fa-star fa-2xs"></i>
+										<i class="fa-solid fa-star fa-2xs"></i>
+										<i class="fa-solid fa-star fa-2xs"></i>
+									
+									<!-- <a href="#" data-scrollto="#menu" data-easing="easeInOutExpo" data-speed="1250" class="button button-rounded px-4 button-border button-light button-white fw-semibold ms-0">View All</a> -->
+								</div>
+							</div>
+
+							<div class="item-categories overflow-hidden col-md-4 dark col-padding position-relative" style="background-color: #1B1B1B;">
+								<!-- <div class="cat-img"><img  data-animate="fadeInRight" src="./pexels-leonardo-luz-13998988-removebg-preview.png" alt="Category Image"></div> -->
+								<div class="cat-text">
+									<h2 class="fw-bold ls-1 text-uppercase mb-5">Best Service</h2>
+									<p> Mookie serves her customers with so much grace and enthusiasm. Such great service! I am definitely coming back" <br> - Khotso</p>
+                                    <i class="fa-solid fa-star fa-2xs"></i>
+										<i class="fa-solid fa-star fa-2xs"></i>
+										<i class="fa-solid fa-star fa-2xs"></i>
+										<i class="fa-solid fa-star fa-2xs"></i>
+										<i class="fa-solid fa-star fa-2xs"></i>
+									<!-- <div class="cat-img"><img  data-animate="fadeInRight" src="./pexels-leonardo-luz-13998988-removebg-preview.png" alt="Category Image" height= "100%" width="150"></div>
+									<a href="#story" data-scrollto="#story" data-easing="easeInOutExpo" data-speed="1250" class="button button-rounded px-4 button-border button-light button-white fw-semibold ms-0">View All</a> -->
+								</div>
+							</div>
+
+							<div class="item-categories overflow-hidden col-md-4 dark col-padding position-relative" style="background-color: #262626; background-image: url(''); background-position:  ;">
+								<!-- <div class="cat-img"><img  data-animate="fadeInRight" src="./pexels-ron-lach-8879617-removebg-preview.png" alt="Category Image"></div> -->
+								<div class="cat-text">
+									<h2 class="fw-bold ls-1 text-uppercase mb-5">Fast delivery</h2>
+									<p> "Orders are always delivered on time. The food is still warm when it arrives" <br> - Boipelo </p>
+									<i class="fa-solid fa-star fa-2xs"></i>
+										<i class="fa-solid fa-star fa-2xs"></i>
+										<i class="fa-solid fa-star fa-2xs"></i>
+										<i class="fa-solid fa-star fa-2xs"></i>
+										<i class="fa-solid fa-star fa-2xs"></i>
+									<!-- <a href="#" data-scrollto="#menu-snacks" data-easing="easeInOutExpo" data-speed="1250" class="button button-rounded px-4 button-border button-light button-white fw-semibold ms-0">View All</a> -->
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="section dark-color m-0 p-0">
+						<img src="./1684728501988.jpg" alt="Section Image" width="100%">
+						<div class="container dark">
+							<div class="text-center mb-6">
+								<div class="before-heading font-secondary color">Best Quality</div>
+								<h1 class="font-border display-4 ls-1 fw-bold">Ingredients</h1>
+							</div>
+
+							<div class="clear"></div>
+
+							<div class="row align-items-center">
+
+								<div class="col-lg-4 col-md-6">
+
+									<div class="feature-box px-0" data-animate="fadeInLeft">
+										<div class="fbox-content">
+											<h3 class="color"><i class="fa-solid fa-check-circle"></i> Burger Buns</h3>
+											<p>Super soft and pillowy. Every day fresh.</p>
+										</div>
+									</div>
+
+									<div class="feature-box ps-5 pe-0 mt-6" data-animate="fadeInLeft" data-delay="
+									100">
+										<div class="fbox-content">
+											<h3 class="color"><i class="fa-solid fa-check-circle"></i> Fresh Vegetables</h3>
+											<p>For that extra crisp and a little juiciness on your taste buds.</p>
+										</div>
+									</div>
+
+									<div class="feature-box ps-2 pe-0 mt-6" data-animate="fadeInLeft" data-delay="
+									200">
+										<div class="fbox-content">
+											<h3 class="color"><i class="fa-solid fa-check-circle"></i> Ground Beef</h3>
+											<p>Finely minced for the perfect patty.</p>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="col-lg-4 d-md-none d-lg-block text-center slide-img" data-animate="img-to-bottom">
+									<img src="demos/burger/images/others/section-3.jpg" alt="burger stack">
+								</div>
+
+								<div class="col-lg-4 col-md-6">
+
+									<div class="feature-box ps-5 pe-0" data-animate="fadeInRight">
+										<div class="fbox-content">
+											<h3 class="color"><i class="fa-solid fa-check-circle"></i> Fresh Meat</h3>
+											<p>Juicy, tender cuts of meat that are high-quality and flavorful.</p>
+										</div>
+									</div>
+
+									<div class="feature-box px-0 mt-6" data-animate="fadeInRight" data-delay="
+									100">
+										<div class="fbox-content">
+											<h3 class="color"><i class="fa-solid fa-check-circle"></i> Chicken</h3>
+											<p>First grade tender cuts</p>
+										</div>
+									</div>
+
+									<div class="feature-box ps-3 pe-0 mt-6" data-animate="fadeInRight" data-delay="
+									200">
+										<div class="fbox-content">
+											<h3 class="color"><i class="fa-solid fa-check-circle"></i> Dairy Products</h3>
+											<p>The cheesiest and milkiest you'll ever taste!</p>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="clear"></div>
+
+				<div id="menu" class="page-section">
+					<div class="section mb-0" style="background: linear-gradient(to bottom,#F7cf31, transparent, #101010), url('demos/burger/images/others/section-2.jpg') no-repeat center top / cover;">
+
+						<div class="container">
+							<div class="row align-items-center">
+								<div class="col-md-5 dark order-2 order-md-1">
+									<div class="mb-5">
+                                     <div class="before-heading font-secondary color mb-2"></div>
+										<div class="d-flex align-items-center dotted-bg">
+											<img src="./burger.svg" alt="" width="60">
+											<h1 class="font-border display-4 ls-1 fw-bold mb-0  ms-3">Burgers</h1>
+										</div>
+									</div>
+
+									<div class="clear"></div>
+
+									<div class="price-menu-warp img-hover-block" src="./1684730755651-removebg-preview.png"> 
+										<div class="price-header">
+											<div class="price-name color">Classic Beginner Burger (Double)</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R78.00</div>
+										</div>
+										<p class="price-desc">Toasted bun, Lettuce, Red Onion, Mookie's Burger Sauce, !00% Mookie's Munchiies Beef Patty, Cheddar Cheese, Cheese Sauce Served with Fries</p>
+									</div>
+
+									<div class="price-menu-warp img-hover-block" data-img="">
+										<div class="price-header">
+											<div class="price-name color">Chillio Munchie Burger (Double)</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R80.00</div>
+										</div>
+										<p class="price-desc">Toasted bun, Lettuce, Red Onion, Mookie's Burger Sauce, !00% Mookie's Munchiies Beef Patty, Cheddar Cheese, Chili Nacho Cheese Sauce, Home Pickled Jalapeno's Served with Fries</p>
+									</div>
+
+                                   <div class="price-menu-warp img-hover-block" data-img=""> 
+										<div class="price-header">
+											<div class="price-name color">Waya Double Deluxe Burger</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R95.00</div>
+										</div>
+										<p class="price-desc">Toasted bun, Lettuce, Red Onion,Gherkins, Mookie's Burger Sauce, !00% Mookie's Munchiies Beef Patty, Cheddar Cheese, Cheese Sauce, Bacon Served with Fries</p>
+									</div>
+
+									<div class="price-menu-warp img-hover-block" data-img=""> 
+										<div class="price-header">
+											<div class="price-name color">M'Porky Bacon Burger</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R83.50</div>
+										</div>
+										<p class="price-desc">Toasted bun, Lettuce, Red Onion, Mookie's Burger Sauce, !00% Mookie's Munchiies Beef Patty, Cheddar Cheese, Home-made Cheese Sauce, Bacon Served with Fries</p>
+									</div>
+								</div>
+
+								<div class="col-md-6 text-center order-1 order-md-2" data-animate="zoomIn faster">
+									<img src="./pexels-valeria-boltneva-580612-removebg-preview.png" alt="Image" class="parallax price-img mb-5 mb-md-0" data-top-bottom="transform:translateY(-30px)" data-bottom-top="transform:translateY(140px)">
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div id="menu-snacks" class="section m-0" style="background: linear-gradient(to bottom, #101010, rgba(16,16,16,0.3),#101010), url('demos/burger/images/others/section-5.jpg') no-repeat center top / cover;">
+
+						<div class="container">
+							<div class="row align-items-center">
+								<div class="col-md-6 offset-md-1" data-animate="zoomIn faster">
+									<img src="./pexels-leonardo-luz-14342440-removebg-preview.png" alt="" class="parallax price-img mb-5 mb-md-0" data-top-bottom="transform:translateY(-30px)" data-bottom-top="transform:translateY(140px)">
+								</div>
+
+								<div class="col-md-5 dark">
+									<div class="mb-5">
+										<div class="before-heading font-secondary color mb-3"></div> 
+										<div class="d-flex align-items-center dotted-bg">
+											<img src="demos/burger/images/svg/snacks.svg" alt="" width="70">
+											<h1 class="font-border display-4 ls-1 fw-bold mb-0 ms-3">Sides</h1>
+										</div>
+									</div>
+
+									<div class="clear"></div>
+
+									 <div class="price-menu-warp img-hover-block" data-img="">
+										<div class="price-header"> 
+											<div class="price-name color">Bacon & Egg Toastie</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R35.00</div>
+										</div>
+										<p class="price-desc">Toasted Bread, Mayo, Cheese, Egg, Bacon and Chips</p>
+									</div>
+
+									<div class="price-menu-warp img-hover-block" data-img=""> 
+										<div class="price-header">
+											<div class="price-name color">Plain Fries</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R30.00</div>
+										 </div>
+									</div> 
+
+                                    <div class="price-menu-warp img-hover-block" data-img=""> 
+										<div class="price-header">
+											<div class="price-name color">Bacon Chillio Cheese Fries</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R45.00</div>
+										</div>
+										<p class="price-desc">Potato Chips, Bacon Bits, Home-made Nacho Cheese Sauce, Home Pickled Jalapenos </p>
+                                    </div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div id="menu-beverages" class="section mt-0" style="background: linear-gradient(to bottom, #F7cf31, rgba(16,16,16,0.3),#101010), url('demos/burger/images/others/section-4.jpg') no-repeat center top / cover;">
+
+						<div class="container">
+							<div class="row align-items-center">
+
+								<div class="col-md-5 dark order-2 order-md-1">
+									<div class="d-flex align-items-center mb-5 dotted-bg">
+										<img src="demos/burger/images/svg/drinks.svg" alt="" width="50">
+										<div class="ms-3">
+                                        <div class="before-heading font-secondary color">Our Menu</div> 
+											<h1 class="font-border display-4 ls-1 fw-bold mb-0">Beverages & Extras</h1>
+										</div>
+									</div>
+
+									<div class="clear"></div>
+
+									<div class="price-menu-warp img-hover-block" data-img=""> 
+										<div class="price-header">
+											<div class="price-name color">Soda Coldrink</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price"><h5>In Store Prices</h5></div>
+										</div>
+                                    </div> 
+
+									<div class="price-menu-warp img-hover-block" data-img=""> 
+										<div class="price-header">
+											<div class="price-name color">Extra Cheese</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R10.00</div>
+										 </div>
+									</div> 
+
+									<div class="price-menu-warp img-hover-block" data-img=""> 
+										<div class="price-header">
+											<div class="price-name color">Extra Cheese</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R7.00</div>
+										</div>
+									</div> 
+
+									<div class="price-menu-warp img-hover-block" data-img=""> 
+										<div class="price-header">
+											<div class="price-name color">Avocado</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R10.00</div>
+										</div>
+										<p class="price-desc">Seasonal**</p>
+									</div>
+								</div>
+
+								<div class="col-md-6 offset-md-1 text-center order-1 order-md-2" data-animate="zoomIn faster">
+									<img src="./pexels-ron-lach-8879617-removebg-preview.png" alt="" class="parallax price-img mb-5 mb-md-0" data-top-bottom="transform:translateY(-30px)" data-bottom-top="transform:translateY(140px)">
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="section dark my-0" style="padding: 60px 0 120px; background: linear-gradient(to bottom, #101010, transparent), url('demos/burger/images/icon-bg-white.png') repeat center center;">
+					<div class="container mx-auto" style="max-width: 1000px">
+						<div class="row align-items-center">
+							<div class="col-md-6 text-center text-md-start">
+								<h2 class="display-4 fw-bold text-uppercase ls-1" data-animate="fadeInUp">Very Faaaaast Delivery!</h2>
+								<h4 class="font-secondary text-white-50" data-animate="fadeInUp" data-delay="100"> Come on and indulge the Munchiies!!</h4>
+								<a href="tel:+112223333" class="button button-large button-rounded button-reveal px-4 tright fw-semibold"><i class="bi-arrow-right"></i><span>Call us Now</span></a>
+							</div>
+							<div class="col-md-6">
+								 <div class="slide-img" data-animate="img-to-left">
+									<img src="demos/burger/images/svg/delivery.svg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="contact" class="section page-section dark m-0 pb-0 pb-md-5 slide-img" data-animate="img-to-left" style="background: #101010 url('demos/burger/images/icon-bg-white.png') repeat center center;">
+					<div class="container pt-3 pb-4">
+						<div class="row">
+							<div class="col-sm-5"  style="line-height: 1.7; z-index: 1">
+								<address class="d-block mb-5">
+									<div class="font-secondary h5 mb-2 color">Address:</div>
+									<span class="h6 text-white ls-1 fw-normal font-primary">
+										7218 Otlega Drive<br>
+										Kagiso 2<br>
+									</span>
+								</address>
+								<div class="font-secondary h5 mb-2 color">Phone Number:</div>
+								<a href="tel:(+27) 63 288 6708" class="d-block h6 text-white ls-1 fw-normal font-primary mb-5">(+27) 63 288 6708</a>
+
+								<div class="font-secondary h5 mb-2 color">Email:</div>
+								<a href="mailto:mookiesmunchiies@gmail.com?Subject=Hello%20again" class="d-block h6 text-white ls-1 fw-normal font-primary mb-5">mookiesmunchiies@gmail.com</a>
+
+								<div class="font-secondary h5 mb-2 color">Time:</div>
+								<div class="h6 text-white ls-1 fw-normal font-primary">11:00am - 06:00pm</div>
+								<span class="text-uppercase text-white ls-1 fw-normal font-primary">Sunday Closed</span>
+							</div>
+						</div>
+					</div>
+					<div id="map" class="gmap mt-5 mt-md-0" data-address="Johannesburg, South Africa" data-styles='[{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#666666"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":10}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]' data-zoom="14" data-icon='{image: "demos/burger/images/svg/hamburger-marker.svg",iconsize: [40, 36],iconanchor: [40,36]}' data-maptype="ROADMAP" data-content='<div class="text-dark" style="width: 300px;"><h4 class="text-dark" style="margin-bottom: 8px;">Hi, we are <span>Envato</span></h4><p class="nomb-5">Our mission is to help people to <strong>earn</strong> and to <strong>learn</strong> online. We operate <strong>marketplaces</strong> where hundreds of thousands of people buy and sell digital goods every day, and a network of educational blogs where millions learn <strong>creative skills</strong>.</p></div>'></div>
+
+				</div>
+
+			</div>
+
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark noborder parallax pt-3">
+			<img src="demos/burger/images/others/footer.jpg" class="parallax-bg">
+			<div class="container">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap">
+
+					<div class="row col-mb-50">
+						<div class="col-lg-8">
+
+							<div class="widget">
+
+								<img src="./FB_IMG_16819292665996575.jpg" alt="" height="40" class="alignleft" style=" padding-right: 18px; border-right: 1px solid #4A4A4A;">
+
+								<p>We believe in <strong>Quality</strong>, <strong>Efficiency</strong> &amp; <strong>Bursting flavour! </strong> Thank you for trusting Mookie's and giving continuous support over the years!</p>
+
+								<div class="line" style="margin: 30px 0;"></div>
+
+								<div class="row col-mb-30">
+									<div class="col-lg-6">
+										<div class="widget">
+
+											<div class="d-none d-lg-block"><div class="clear" style="padding-top: 10px;"></div></div>
+
+											<div class="row col-mb-30">
+												<!-- <div class="col-sm-6">
+													<div class="counter counter-small color"><span data-from="50" data-to="15065425" data-refresh-interval="80" data-speed="3000" data-comma="true"></span></div>
+													<h5 class="nomb-5">Total </h5>
+												</div> -->
+
+												<div class="col-sm-6">
+													<div class="counter counter-small color"><span data-from="100" data-to="3780" data-refresh-interval="50" data-speed="2000" data-comma="true"></span></div>
+													<h5 class="nomb-5">Orders Served</h5>
+												</div>
+											</div>
+
+										</div>
+									</div>
+
+									<!-- <div class="col-lg-6">
+										<div class="widget subscribe-widget">
+											<h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers &amp; Inside Scoops:</h5>
+											<div class="widget-subscribe-form-result"></div>
+											<form id="widget-subscribe-form" action="include/subscribe.php" role="form" method="post" class="nomb-5">
+												<div class="input-group mx-auto">
+													<div class="input-group-text bg-white"><i class="bi-send"></i></div>
+													<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email not-dark border-0" placeholder="Enter your Email">
+													<button class="btn text-white bgcolor" type="submit">Subscribe</button>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div> -->
+
+							</div>
+
+							<div class="line" style="margin: 30px 0;"></div>
+
+							<div class="row col-mb-30">
+								<div class="col-6 col-lg-4">
+									<div class="widget">
+
+										<h4 class="fw-bold">Sitemap</h4>
+
+										<ul class="list-unstyled ms-0">
+											<li class="mb-2"><a class="text-white-50" href="#">Home</a></li>
+											<li class="mb-2"><a class="text-white-50" href="#">About Us</a></li>
+											<li class="mb-2"><a class="text-white-50" href="#">Menu</a></li>
+											<li class="mb-2"><a class="text-white-50" href="#">Store</a></li>
+										</ul>
+
+									</div>
+								</div>
+								<div class="col-6 col-lg-4">
+									<div class="widget">
+
+										<h4 class="fw-bold">Categories</h4>
+
+										<ul class="list-unstyled ms-0">
+											<li class="mb-2"><a class="text-white-50" href="#">Burgers</a></li>
+											<li class="mb-2"><a class="text-white-50" href="#">Sides</a></li>
+											<li class="mb-2"><a class="text-white-50" href="#">Beverages</a></li>
+										</ul>
+
+									</div>
+								</div>
+								<!-- <div class="col-md-12 col-lg-4">
+									<div class="widget">
+
+										<h4 class="fw-bold">Download App</h4>
+										<a href="#"><img src="demos/articles/images/appstore.png" alt="App Link" height="50"></a>
+										<a href="#"><img src="demos/articles/images/googleplay.png" alt="App Link" class="mt-2" height="50"></a>
+
+									</div>
+								</div> -->
+							</div>
+
+						</div>
+
+						<div class="col-lg-4">
+
+							<!-- <div class="widget">
+								<h4>Instagram Photos</h4>
+								<div id="instagram-photos" class="instagram-photos masonry-thumbs row row-cols-4 row-cols-sm-6 row-cols-lg-4" data-user="blog.canvastemplate"></div>
+							</div> -->
+
+						</div>
+					</div>
+
+				</div><!-- .footer-widgets-wrap end -->
+			</div>
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights">
+				<div class="container">
+
+					<div class="row col-mb-30">
+						<div class="col-md-6 text-center text-md-start">
+							Copyrights &copy; 2023 All Rights Reserved by Mookies Munchiies.<br>
+							<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
+						</div>
+
+						<div class="col-md-6 text-center text-md-end">
+							<div class="d-flex justify-content-center justify-content-md-end">
+								<a href="#" class="social-icon si-small mb-0 border-0 bg-facebook">
+									<i class="fa-brands fa-facebook-f"></i>
+									<i class="fa-brands fa-facebook-f"></i>
+								</a>
+
+								<!-- <a href="#" class="social-icon si-small mb-0 border-0 bg-twitter">
+									<i class="fa-brands fa-twitter"></i>
+									<i class="fa-brands fa-twitter"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small mb-0 border-0 bg-google">
+									<i class="fa-brands fa-google"></i>
+									<i class="fa-brands fa-google"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small mb-0 border-0 bg-pinterest">
+									<i class="fa-brands fa-pinterest-p"></i>
+									<i class="fa-brands fa-pinterest-p"></i>
+								</a> -->
+
+								<a href="#" class="social-icon si-small mb-0 border-0 bg-instagram">
+									<i class="bi-instagram"></i>
+									<i class="bi-instagram"></i>
+								</a>
+
+								<!-- <a href="#" class="social-icon si-small mb-0 border-0 bg-youtube">
+									<i class="fa-brands fa-youtube"></i>
+									<i class="fa-brands fa-youtube"></i>
+								</a> -->
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div><!-- #copyrights end -->
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="uil uil-angle-up"></div>
+
+	<!-- Javascripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+	<script>
+		window.addEventListener('load', function() {
+    let popupContainer = document.querySelector('.popup-container');
+    let closeButton = document.querySelector('.popup-close');
+
+    popupContainer.style.display = 'block';
+
+    closeButton.addEventListener('click', function() {
+        popupContainer.style.display = 'none';
+    });
+});
+
+	</script>
+
+	<!-- Parallax Script
+	============================================= -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+	<script>!SEMICOLON.Mobile.any() && skrollr.init({forceHeight: false});</script>
+
+	<!-- Hover Animate -->
+	<script src="demos/burger/js/hover-animate.js"></script>
+
+</body>
+</html>
